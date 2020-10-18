@@ -1,539 +1,532 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-    
+<link rel="stylesheet" href="/css/main.css">
 
-    
-    <title>欢迎来到我的博客</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <meta property="og:type" content="website">
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"qytangt.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta property="og:type" content="website">
 <meta property="og:title" content="欢迎来到我的博客">
 <meta property="og:url" content="https://qytangt.github.io/index.html">
 <meta property="og:site_name" content="欢迎来到我的博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Qytangt">
 <meta name="twitter:card" content="summary">
-    
 
-    
-        <link rel="alternate" href="/" title="欢迎来到我的博客" type="application/atom+xml" />
-    
-
-    
-
-    
-<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
-
-    
-<link rel="stylesheet" href="/libs/titillium-web/styles.css">
-
-    
-<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+<link rel="canonical" href="https://qytangt.github.io/">
 
 
-    
-<link rel="stylesheet" href="/css/style.css">
-
-
-    
-<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
-
-    
-    
-        
-<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
-
-    
-    
-        
-<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
-
-    
-    
-    
-    
-
-
-<meta name="generator" content="Hexo 5.2.0"></head>
-
-<body>
-    <div id="wrap">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div class="container">
-            <div class="container-inner">
-                <div id="header-title">
-                    <h1 class="logo-wrap">
-                        <a href="/" class="logo"></a>
-                    </h1>
-                    
-                </div>
-                <div id="header-inner" class="nav-container">
-                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
-                    <div class="nav-container-inner">
-                        <ul id="main-nav">
-                            
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">主页</a>
-                                </li>
-                            
-                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li></ul>
-                                
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">关于</a>
-                                </li>
-                            
-                        </ul>
-                        <nav id="sub-nav">
-                            <div id="search-form-wrap">
-
-    <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
-        <button type="submit" class="search-form-submit"></button>
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(未命名)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
 </script>
 
-<script src="/js/insight.js"></script>
+  <title>欢迎来到我的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">欢迎来到我的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
 
 
 </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-        <div class="container">
-            <div class="main-body container-inner">
-                <div class="main-body-inner">
-                    <section id="main">
-                        <div class="main-body-header">
-    <h1 class="header">
-    
-    <em class="page-title-link" data-url="home">主页</em>
-    </h1>
-</div>
-
-                        <div class="main-body-content">
-                            
+    </header>
 
     
-    
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2020/10/18/newpapername/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://qytangt.github.io/2020/10/18/newpapername/">0</span>
-    
-</span>
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
-    
-</a>
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
-        
-        <div class="article-meta">
-            <div class="category">
+          <div class="content index posts-expand">
             
-            </div>
-            <div class="date"><time datetime="2020-10-18T07:06:29.000Z" itemprop="datePublished">2020-10-18</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2020/10/18/newpapername/">将“China”译成密码</a>
-        </h1>
-    
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://qytangt.github.io/2020/10/18/newpapername/">
 
-        <p class="article-excerpt">
-            Topic:密码规律是：用原来的字母后面第4个字母代替原来的字母。例如，字母“A”后面第4个字母是“E”，用“E”代替“A”。因此，“China”应译为“Glmre”。请编一程序，用赋初值的方法使c1，c2，c3，c4，c5五个变量的值分别为‘C’‘h’‘i’‘n’‘a’.经过运算，使c1，c2，c3，c4，c5分别变为‘G’‘l’‘m’‘r’‘e’，并输出。
-Answer:12345678910
-        </p>
-    </div>
-</article>
-    
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Qytangt">
+      <meta itemprop="description" content="">
+    </span>
 
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://pic1.zhimg.com/v2-76ea38e9545e606f975781e47933b010_b.jpg)" alt="hexo博客搭建(转)" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://qytangt.github.io/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">0</span>
-    
-</span>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="欢迎来到我的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/18/newpapername/" class="post-title-link" itemprop="url">将“China”译成密码</a>
+        </h2>
 
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-            </div>
-            <div class="date"><time datetime="2020-10-10T16:04:55.000Z" itemprop="datePublished">2020-10-11</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">hexo博客搭建(转)</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            安装git安装node.jsHexo基于Node.js，Node.js下载地址：Download | Node.js 。
-安装后，检测Node.js是否安装成功，在命令行中输入 node -v :
-
-检测npm是否安装成功，在命令行中输入npm -v :
-
-如果命令行没有显示相对于的版本号，就需要手动配置环境。
-手动配置环境的步骤为：找到node.js的文件夹，复制路径，打开环境变量配置Path属
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
-
-
-
-                        </div>
-                    </section>
-                    <aside id="sidebar">
-    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
-    <div class="sidebar-top">
-        <p>关注我 :</p>
-        <ul class="social-links">
-            
-                
-                <li>
-                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-twitter"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-facebook"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-stack-overflow"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
-                        <i class="icon fa fa-github"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-weibo"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-rss"></i>
-                    </a>
-                </li>
-                
-            
-        </ul>
-    </div>
-    
-    <div class="widgets-container">
-        
-            
-                
-
-            
-                
-    <div class="widget-wrap">
-        <h3 class="widget-title">最新文章</h3>
-        <div class="widget">
-            <ul id="recent-post" class="">
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2020/10/18/newpapername/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2020/10/18/newpapername/" class="title">将“China”译成密码</a></p>
-                            <p class="item-date"><time datetime="2020-10-18T07:06:29.000Z" itemprop="datePublished">2020-10-18</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://pic1.zhimg.com/v2-76ea38e9545e606f975781e47933b010_b.jpg)" alt="hexo博客搭建(转)" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></p>
-                            <p class="item-title"><a href="/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="title">hexo博客搭建(转)</a></p>
-                            <p class="item-date"><time datetime="2020-10-10T16:04:55.000Z" itemprop="datePublished">2020-10-11</time></p>
-                        </div>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">分类</h3>
-        <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a><span class="category-list-count">1</span></li></ul>
-        </div>
-    </div>
-
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">归档</h3>
-        <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">2</span></li></ul>
-        </div>
-    </div>
-
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">标签</h3>
-        <div class="widget">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag">博客搭建</a><span class="tag-list-count">1</span></li></ul>
-        </div>
-    </div>
-
-
-            
-                
-    <div class="widget-wrap widget-float">
-        <h3 class="widget-title">标签云</h3>
-        <div class="widget tagcloud">
-            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">博客搭建</a>
-        </div>
-    </div>
-
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">链接</h3>
-        <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-
-            
-        
-    </div>
-</aside>
-
-                </div>
-            </div>
-        </div>
-        <footer id="footer">
-    <div class="container">
-        <div class="container-inner">
-            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
-            <div class="credit">
-                <h1 class="logo-wrap">
-                    <a href="/" class="logo"></a>
-                </h1>
-                <p>&copy; 2020 Qytangt</p>
-                
-                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
-                
-            </div>
-            <div class="footer-plugins">
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
               
-    
 
+              <time title="创建时间：2020-10-18 15:06:29 / 修改时间：15:25:03" itemprop="dateCreated datePublished" datetime="2020-10-18T15:06:29+08:00">2020-10-18</time>
+            </span>
 
-            </div>
+          
+
         </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Topic"><a href="#Topic" class="headerlink" title="Topic:"></a>Topic:</h1><p>密码规律是：用原来的字母后面第4个字母代替原来的字母。例如，字母“A”后面第4个字母是“E”，用“E”代替“A”。因此，“China”应译为“Glmre”。请编一程序，用赋初值的方法使c1，c2，c3，c4，c5五个变量的值分别为‘C’‘h’‘i’‘n’‘a’.经过运算，使c1，c2，c3，c4，c5分别变为‘G’‘l’‘m’‘r’‘e’，并输出。</p>
+<h1 id="Answer"><a href="#Answer" class="headerlink" title="Answer:"></a>Answer:</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include &lt;stdio.h&gt;</span></span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">	char c1=<span class="string">&#x27;C&#x27;</span>,c2=<span class="string">&#x27;h&#x27;</span>,c3=<span class="string">&#x27;i&#x27;</span>,c4=<span class="string">&#x27;n&#x27;</span>,c5=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">	c1+=4;</span><br><span class="line">	c2+=4;</span><br><span class="line">	c3+=4;</span><br><span class="line">	c4+=4;</span><br><span class="line">	c5+=4;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%c%c%c%c%c\n&quot;</span>,c1,c2,c3,c4,c5);</span><br><span class="line">	<span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
     </div>
-</footer>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://qytangt.github.io/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Qytangt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="欢迎来到我的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/11/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-title-link" itemprop="url">hexo博客搭建(转)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-10-11 00:04:55" itemprop="dateCreated datePublished" datetime="2020-10-11T00:04:55+08:00">2020-10-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-10-18 15:25:25" itemprop="dateModified" datetime="2020-10-18T15:25:25+08:00">2020-10-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h1><h1 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h1><p>Hexo基于Node.js，Node.js下载地址：<a href="https://link.zhihu.com/?target=https://nodejs.org/en/download/">Download | Node.js</a> 。</p>
+<p>安装后，检测Node.js是否安装成功，在命令行中输入 node -v :</p>
+<p><img src="https://pic1.zhimg.com/v2-76ea38e9545e606f975781e47933b010_b.jpg" alt="img"></p>
+<p>检测npm是否安装成功，在命令行中输入npm -v :</p>
+<p><img src="https://pic2.zhimg.com/v2-bede250b8456df92475b455fda8c1dd9_b.jpg" alt="img"></p>
+<p>如果命令行没有显示相对于的版本号，就需要手动配置环境。</p>
+<p>手动配置环境的步骤为：找到node.js的文件夹，复制路径，打开环境变量配置Path属性，将复制的地址粘贴进去。</p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>这里需要自己在电脑常里创建一个文件夹，可以命名为hexo，Hexo框架与以后你自己发布的网页都在这个文件夹中。创建好后，进入文件夹中，在上面的路径输入cmd加回车进入命令行。</p>
+<p><img src="https://pic1.zhimg.com/v2-a5450a466c0927c25dff8ad6f1d2046c_b.jpg" alt="img"></p>
+<p>使用npm命令安装Hexo，输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli </span><br></pre></td></tr></table></figure>
+
+<p>这个安装时间较长耐心等待，安装完成后什么变化都没有，因为只是安装了个框架，要再初始化我们的博客，（这一步要事先安装git，不然会报错，而且也要等挺久的）输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+
+<p>注意，这里的命令都是作用在刚刚创建的hexo文件夹中，要在命令行进入文件夹才可以执行这些命令。安装完毕后刚刚新建的文件夹会多一个文件出来。</p>
+<p>然后进入多出来的文件夹里面。</p>
+<p>为了检测我们的网站雏形，分别按顺序输入以下四条命令：</p>
+<p>hexo n  “我的博客” == hexo new  “我的博客”   #新建文章<br>hexo g == hexo generate   #生成<br>hexo s == hexo server   #启动服务预览</p>
+<p>hexo d == hexo deploy   #部署（这一步待会再做）</p>
+<p>这些命令在后面作介绍，完成后，打开浏览器输入地址：</p>
+<p>localhost:4000</p>
+<h2 id="部署到码云，让大家都能访问你的网站"><a href="#部署到码云，让大家都能访问你的网站" class="headerlink" title="部署到码云，让大家都能访问你的网站"></a>部署到码云，让大家都能访问你的网站</h2><p>注册码云账号，右上角+号新建仓库。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011153311991.png"></p>
+<p>进入根目录下的_config.yml，找到deploy那一行，输入：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011154549696.png"></p>
+<p>再ctrl+f搜索url，找到这一行：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011160005944.png"></p>
+<p>修改为自己仓库的地址：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011155948282.png"></p>
+<p>安装部署插件，输入命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+
+
+<p>输入三条命令（hexo d即hexo deploy）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+<p>这时候刷新一下仓库页面，就可以看到仓库多出来一些文件了。</p>
+<p>然后再点击上边的gitee pages服务，强制使用HTTPS（否则部分浏览器会判定链接不安全，网站的显示会出问题），点击更新，完成后点击上面的地址就可以进入自己的博客了。</p>
+<p>这个网址可以供给任何人访问。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011155101851.png"></p>
+<p>一般来说，都是先在本地部署，用hexo s查看自己的博客情况，确认无误后再上传，无需频繁更新。</p>
+<h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><p>在你的博客根目录打开cmd,输入下面的命令，进行框架安装。(命令行的复制ctrl+c后，只要在命令行右键即可完成复制，而不是ctrl+v)</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo<span class="literal">-theme</span><span class="literal">-butterfly</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="應用主題"><a href="#應用主題" class="headerlink" title="應用主題"></a>應用主題</h2><p>这里可以使用记事本打开yml文件（Vscode,Hbuilder之类的也可以）。</p>
+<p>修改站点配置文件_config.yml，把主题改为butterfly</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安裝插件"><a href="#安裝插件" class="headerlink" title="安裝插件"></a>安裝插件</h2><p>安装pug 以及 stylus 的渲染器。</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-renderer</span><span class="literal">-pug</span> hexo<span class="literal">-renderer</span><span class="literal">-stylus</span> -<span class="literal">-save</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="复制主题配置文件"><a href="#复制主题配置文件" class="headerlink" title="复制主题配置文件"></a>复制主题配置文件</h2><p>把主题文件夹中的 _config.yml 复制到 Hexo 根目录，同時重新命名为 _config.butterfly.yml。</p>
+<p>以後只需要在 _config.butterfly.yml進行配置就行。</p>
+<h2 id="菜单列表"><a href="#菜单列表" class="headerlink" title="菜单列表"></a>菜单列表</h2><p>打开_config.butterfly.yml，在里面找到menu这一行，将这些注释去掉，就可以把菜单解放出来。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011163245587.png"></p>
+<p>然后在命令行，ctrl+c终止进程，然后再次hexo s部署到本次，就可以看到菜单栏出现了。</p>
+<p>左边的蓝色英文是可以任意更改的，一般改成相对应的中文翻译。框架主要通过中间的archives等关键字识别，赋予功能。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011163543769.png"></p>
+<h2 id="更换网站的图片信息"><a href="#更换网站的图片信息" class="headerlink" title="更换网站的图片信息"></a>更换网站的图片信息</h2><p>在_config.butterfly.yml里面搜索avatar</p>
+<p>输入图片地址可以更改头像。</p>
+<p>index_img是设定主页顶部图像，default_top_img是设定默认的顶部图。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011164318929.png"></p>
+<p>背景图：</p>
+<p>搜索background，输入图片地址</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011164901081.png"></p>
+<h2 id="更改自己的个人信息"><a href="#更改自己的个人信息" class="headerlink" title="更改自己的个人信息"></a>更改自己的个人信息</h2><p>在_config.yml更改自己的个人信息。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011165427405.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LionHeart-o/hexo/blogimg/image-20201011165850539.png"></p>
+<h2 id="标签（tags）页"><a href="#标签（tags）页" class="headerlink" title="标签（tags）页"></a>标签（tags）页</h2><ol>
+<li><p>到 Hexo 博客的根目录</p>
+</li>
+<li><p>命令行输入<code>hexo new page tags</code></p>
+</li>
+<li><p>修改<code>source/tags/index.md</code>文件</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line">type: &quot;tags&quot;（添加项）</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="分类（categories）页"><a href="#分类（categories）页" class="headerlink" title="分类（categories）页"></a>分类（categories）页</h2><p>基本同上。</p>
+<ol>
+<li><p>到 Hexo 博客的根目录</p>
+</li>
+<li><p>命令行输入<code>hexo new page categories</code></p>
+</li>
+<li><p>修改<code>source/categories/index.md</code>文件</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line">type: &quot;categories&quot;（添加项）</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Qytangt</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
 
     </div>
-    
-    
-    <script>
-    var disqus_shortname = 'hexo-theme-hueman';
-    
-    
-    (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    </script>
+  </aside>
+  <div id="sidebar-dimmer"></div>
 
 
+      </div>
+    </main>
 
-
-
-    
+    <footer class="footer">
+      <div class="footer-inner">
         
-<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
 
         
-<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Qytangt</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
 
         
-<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-share.min.js"></script>
-
-        
-<script src="/libs/lightgallery/js/lg-video.min.js"></script>
-
-    
-    
-        
-<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
-
-    
-    
-
-    
-    
-    
 
 
 
-<!-- Custom Scripts -->
 
-<script src="/js/main.js"></script>
 
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
 
 </body>
 </html>
