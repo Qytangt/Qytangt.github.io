@@ -6,7 +6,7 @@
   <link href="https://qytangt.github.io/atom.xml" rel="self"/>
   
   <link href="https://qytangt.github.io/"/>
-  <updated>2020-10-18T10:14:20.838Z</updated>
+  <updated>2020-10-20T16:25:33.208Z</updated>
   <id>https://qytangt.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C# 水仙花数</title>
+    <link href="https://qytangt.github.io/2020/10/21/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/"/>
+    <id>https://qytangt.github.io/2020/10/21/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/</id>
+    <published>2020-10-20T16:06:29.000Z</published>
+    <updated>2020-10-20T16:25:33.208Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=837841669,1753082975&fm=11&gp=0.jpg"></p><h1 id="Topic"><a href="#Topic" class="headerlink" title="Topic:"></a>Topic:</h1><p>输出所有的“水仙花数”，所谓的“水仙花数”是指一个三位数其各位数字的立方和等于该数本身，例如153是“水仙花数”，因为：153 = 13 + 53 + 33。根据“水仙花数”的定义，判断一个数是否为“水仙花数”，最重要的是要把给出的三位数的个位、十位、百位分别拆分，并求其立方和（设为s），若s与给出的三位数相等， 三位数为“水仙花数”，反之，则不是。</p><h1 id="Answer"><a href="#Answer" class="headerlink" title="Answer:"></a>Answer:</h1><pre><code>#算法设计</code></pre><p>“水仙花数”是指满足某一条件的三位数，根据这一信息可以确定整数的取值范围是 100〜999。对应的循环条件如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(n=10; n&lt;1000; n++)</span><br><span class="line">&#123;</span><br><span class="line">    //......</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>对代码的说明：<br>将n整除以100，得出n在百位上的数字hun。<br>将（n-i*100)整除以10(或将n先整除以10再对10求模n/10%10),得出n在十位上的数字ten。<br>将n对10取余，得出n在个位上的数字ind。<br>求得这三个数字的立方和是否与其本身相等，若相等，则该数为水仙花数。</p><p>对于每个位置上的数值将其拆分的算法有很多种，根据不同情况选择不同算法（对于同一问题不同算法的效率有时会相差很多）。</p><p>下面是完整的代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include &lt;stdio.h&gt;</span></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int hun, ten, ind, n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;result is:&quot;</span>);</span><br><span class="line">    <span class="keyword">for</span>( n=100; n&lt;1000; n++ )  /*整数的取值范围*/</span><br><span class="line">    &#123;</span><br><span class="line">        hun = n / 100;</span><br><span class="line">        ten = (n-hun*100) / 10;</span><br><span class="line">        ind = n % 10;</span><br><span class="line">        <span class="keyword">if</span>(n == hun*hun*hun + ten*ten*ten + ind*ind*ind)  /*各位上的立方和是否与原数n相等*/</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d  &quot;</span>, n);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">   </span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>运行结果：<br>result is:153  370  371  407</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=837841669,1753082975&amp;fm=11&amp;gp=0.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Topic&quot;&gt;&lt;a href=&quot;#To</summary>
+      
+    
+    
+    
+    <category term="作业" scheme="https://qytangt.github.io/categories/%E4%BD%9C%E4%B8%9A/"/>
+    
+    
+    <category term="作业" scheme="https://qytangt.github.io/tags/%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>C# 将“China”译成密码</title>
